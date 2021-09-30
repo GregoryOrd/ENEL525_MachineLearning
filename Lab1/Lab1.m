@@ -1,4 +1,7 @@
-%Define Dataset
+%This Lab uses a Single-Neuron Perceptron Network to classify input 2D
+%input vectors in one of two classifications.
+
+%Define Training Dataset
 N = 6;
 p = [1 2 3 1 2 4; 4 5 3.5 0.5 2 0.5];
 t = [1 1 1 0 0 0];
@@ -63,7 +66,7 @@ height=575;
 set(gcf,'position',[x0,y0,width,height]);
 
 %Plot the decision boundary
-plot(x, y); xlabel('p1'); ylabel('p2'); title('Lab 1 Perceptron Neural Network');
+plot(x, y); xlabel('p1'); ylabel('p2'); title('Lab 1 Single-Neuron Perceptron Network');
 hold on;
 
 %Show the unit weight direction vector on the plot
